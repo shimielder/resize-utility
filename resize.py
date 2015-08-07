@@ -37,7 +37,7 @@ def resizing_images():
             print('No such file or directory')
             exit([0])
         try:
-            os.mkdir(destination)
+            os.makedirs(destination)
             print('Directory {} created'.format(os.getcwd()))
         except OSError:
             pass
