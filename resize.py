@@ -61,8 +61,4 @@ def resizing_images():
     opts = getopts(argv)
     resizer(opts)
 
-
-# python3 resize.py -w /home/shimielder/Мониторинг/image-preview -d /home/shimielder/Мониторинг-resized -pf -preview -px 300
-
-
 resizing_images()
