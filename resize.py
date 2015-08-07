@@ -2,7 +2,6 @@ import os
 from PIL import Image
 from sys import argv, exit
 
-
 def resizing_images():
     def getopts(argv):
         opts = {}
@@ -20,7 +19,7 @@ def resizing_images():
 
     def resizer(opts):
         workpath = opts['-w']
-        default_opts = {'-d': '../{}{}/'.format(workpath.split()[-1], '-resized'),
+        default_opts = {'-d': '../{}{}/'.format(workpath.split('\\')[-1], '-resized'),
                         '-px': 150,
                         '-pf': ''}
 
@@ -36,7 +35,7 @@ def resizing_images():
             print('Working directory {}'.format(os.getcwd()))
         except OSError:
             print('No such file or directory')
-            pass
+            exit([0])
         try:
             os.mkdir(destination)
             print('Directory {} created'.format(os.getcwd()))
