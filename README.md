@@ -10,7 +10,7 @@ python3 resize.py w- home/username/pictures -d home/username/thumbnails -px 300 
 
 for windows:
 
-python resize.py w- C:\Users\Admin\Documents\Images -d D:\Site\Preview -px 50 -pf -resized
+python C:\Python_project\resize.py w- C:\Users\Admin\Documents\Images -d D:\Site\Preview -px 50 -pf -resized
 
 # keys:
 
