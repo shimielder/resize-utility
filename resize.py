@@ -38,7 +38,7 @@ def resizing_images():
             exit([0])
         try:
             os.makedirs(destination)
-            print('Directory {} created'.format(os.getcwd()))
+            print('Directory {} created'.format(destination))
         except OSError:
             pass
 
