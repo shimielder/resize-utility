@@ -7,6 +7,7 @@ start it with console/bash command like:
 for linux:
 
 python3 resize.py w- home/username/pictures -d home/username/thumbnails -px 300 -pf thumb
+
 for windows:
 
 python resize.py w- C:\Users\Admin\Documents\Images -d D:\Site\Preview -px 50 -pf -resized
