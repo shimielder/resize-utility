@@ -1,5 +1,5 @@
 # resize-utility
-Small script on Python, that allow you to make thumbnails with given parameters
+small script on Python, that allow you to make thumbnails with given parameters
 
 # usage
 start it with console/bash command like:
